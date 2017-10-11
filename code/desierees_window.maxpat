@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 376.0, 130.0, 1062.0, 592.0 ],
+		"rect" : [ 376.0, 130.0, 658.0, 592.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -246,7 +246,7 @@
 					"patching_rect" : [ 399.5, 149.5, 130.0, 66.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 717.257568, 127.0, 317.121216, 161.0 ],
-					"rows" : 21,
+					"rows" : 16,
 					"style" : ""
 				}
 
