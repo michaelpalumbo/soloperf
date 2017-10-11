@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 77.0, 1064.0, 723.0 ],
+		"rect" : [ 42.0, 85.0, 956.0, 723.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,11 +38,169 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-84",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1360.0, 309.25, 130.0, 22.0 ],
+					"style" : "",
+					"text" : "receive pitched_mode"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-79",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1535.0, 424.75, 100.0, 22.0 ],
+					"style" : "",
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-72",
+					"linecount" : 3,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1535.0, 464.0, 100.0, 50.0 ],
+					"style" : "",
+					"text" : "send set_pitched_mode"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-71",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1303.0, 486.0, 223.0, 22.0 ],
+					"style" : "",
+					"text" : "receive playback_sequence"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-70",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 168.0, 69.0, 150.0, 34.0 ],
+					"style" : "",
+					"text" : "keep this cable disabled always!! its symbolic only."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-60",
+					"linecount" : 3,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 351.0, 125.0, 100.0, 50.0 ],
+					"style" : "",
+					"text" : "send controller_mapper"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-59",
+					"linecount" : 3,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7.0, -48.0, 100.0, 50.0 ],
+					"style" : "",
+					"text" : "r controller_mapping"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-55",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 299.0, 902.0, 100.0, 36.0 ],
+					"style" : "",
+					"text" : "desierees_window"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 9.0, 513.0, 100.0, 36.0 ],
+					"style" : "",
+					"text" : "r to_main_patcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 472.0, 830.0, 100.0, 22.0 ],
+					"style" : "",
+					"text" : "p.gesturepan~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 744.0, 826.0, 100.0, 22.0 ],
+					"style" : "",
+					"text" : "peakamp~ 50"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 780.0, 900.0, 100.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 					"id" : "obj-14",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
 					"numoutlets" : 2,
+					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 47.0, 672.5, 218.0, 132.0 ],
@@ -1416,7 +1574,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 996.0, 16.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "23"
+					"text" : "19"
 				}
 
 			}
@@ -3965,6 +4123,8 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1360.0, 336.25, 150.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 717.257568, 417.25, 150.0, 22.0 ],
 					"style" : "",
 					"varname" : "umenu[1]"
 				}
@@ -4070,6 +4230,8 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1150.0, 336.25, 150.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 717.257568, 393.25, 150.0, 22.0 ],
 					"style" : "",
 					"varname" : "umenu"
 				}
@@ -11219,6 +11381,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-178", 20 ],
+					"order" : 0,
+					"source" : [ "obj-112", 20 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-178", 3 ],
+					"order" : 1,
 					"source" : [ "obj-112", 20 ]
 				}
 
@@ -11691,6 +11862,7 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.321569, 0.184314, 0.454902, 1.0 ],
 					"destination" : [ "obj-64", 0 ],
 					"midpoints" : [ 527.880981, 375.0, 1088.5, 375.0 ],
 					"source" : [ "obj-178", 19 ]
@@ -11829,6 +12001,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-218", 0 ],
+					"disabled" : 1,
+					"source" : [ "obj-221", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
 					"source" : [ "obj-221", 0 ]
 				}
 
@@ -11879,6 +12059,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-127", 0 ],
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-125", 1 ],
+					"source" : [ "obj-25", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-125", 0 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -12043,6 +12237,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -12080,7 +12281,23 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
+					"order" : 1,
 					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-79", 0 ],
+					"order" : 0,
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-218", 0 ],
+					"source" : [ "obj-59", 0 ]
 				}
 
 			}
@@ -12273,6 +12490,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-136", 0 ],
 					"order" : 0,
 					"source" : [ "obj-73", 0 ]
@@ -12285,6 +12509,13 @@
 					"hidden" : 1,
 					"order" : 1,
 					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"source" : [ "obj-79", 0 ]
 				}
 
 			}
@@ -12322,6 +12553,13 @@
 					"destination" : [ "obj-90", 0 ],
 					"midpoints" : [ 1159.5, 217.0, 1140.5, 217.0 ],
 					"source" : [ "obj-83", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"source" : [ "obj-84", 0 ]
 				}
 
 			}
@@ -12390,21 +12628,42 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-125", 0 ],
+					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-99", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-10" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-125" : [ "live.gain~[5]", "live.gain~", 0 ]
+			"obj-125" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-10" : [ "live.gain~[1]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "block-bang.maxpat",
 				"bootpath" : "~/Documents/Max 7/Library/RTC-lib_71-Win/patchers/Toolbox",
 				"patcherrelativepath" : "../../Documents/Max 7/Library/RTC-lib_71-Win/patchers/Toolbox",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "p.gesturepan~.maxpat",
+				"bootpath" : "~/soloperf/code",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pan2S.maxpat",
+				"bootpath" : "C:/ProgramData/Max 7/examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../ProgramData/Max 7/examples/spatialization/panning/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "desierees_window.maxpat",
+				"bootpath" : "~/soloperf/code",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
