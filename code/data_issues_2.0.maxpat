@@ -9,9 +9,9 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 81.0, 768.0, 715.0 ],
+		"rect" : [ 42.0, 85.0, 1347.0, 715.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 1,
+		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -2086,7 +2086,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"bgcolor" : [ 0.501961, 0.360784, 0.262745, 1.0 ],
 					"id" : "obj-150",
 					"maxclass" : "newobj",
 					"numinlets" : 8,
@@ -11685,6 +11685,7 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.501961, 0.360784, 0.262745, 1.0 ],
 					"destination" : [ "obj-52", 0 ],
 					"source" : [ "obj-150", 0 ]
 				}
@@ -11777,6 +11778,7 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.141176, 0.25098, 0.109804, 1.0 ],
 					"destination" : [ "obj-150", 1 ],
 					"midpoints" : [ 130.928574, 303.0, 543.0, 303.0, 543.0, 492.0, 644.642883, 492.0 ],
 					"source" : [ "obj-178", 3 ]
@@ -11785,6 +11787,7 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.501961, 0.360784, 0.262745, 1.0 ],
 					"destination" : [ "obj-150", 0 ],
 					"midpoints" : [ 106.119049, 303.0, 543.0, 303.0, 543.0, 492.0, 601.5, 492.0 ],
 					"source" : [ "obj-178", 2 ]
@@ -12717,8 +12720,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-125" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-10" : [ "live.gain~[1]", "live.gain~", 0 ]
+			"obj-10" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-125" : [ "live.gain~[5]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
