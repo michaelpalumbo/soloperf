@@ -9,7 +9,9 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 376.0, 130.0, 658.0, 592.0 ],
+		"rect" : [ 34.0, 81.0, 1289.0, 802.0 ],
+		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+		"editing_bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,17 +40,74 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 391.0, 680.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"linecount" : 8,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 282.0, 651.0, 50.0, 119.0 ],
+					"style" : "",
+					"text" : "1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"disabled" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+					"id" : "obj-19",
+					"itemtype" : 1,
+					"maxclass" : "radiogroup",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 119.0, 149.5, 18.0, 514.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 58.0, 3.0, 18.0, 514.0 ],
+					"size" : 32,
+					"style" : "",
+					"values" : [ 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 250.0, 354.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-16",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 755.0, 30.0, 150.0, 75.0 ],
+					"patching_rect" : [ 755.0, 30.0, 152.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 714.628784, 30.0, 319.75, 34.0 ],
+					"presentation_rect" : [ 366.628784, 539.0, 772.0, 20.0 ],
 					"style" : "",
-					"text" : "ToDo: is it possible to remove a step so there is silence? (likely, but again, how? probably not using a multislider!)"
+					"text" : ">>>>>>>>>>>>>ToDo: is it possible to remove a step so there is silence? (likely, but again, how? probably not using a multislider!)",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
 			}
@@ -112,9 +171,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 825.0, 592.956055, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 732.257568, 320.25, 150.0, 20.0 ],
+					"presentation_rect" : [ 807.257568, 320.25, 150.0, 20.0 ],
 					"style" : "",
-					"text" : "Sampler\n"
+					"text" : "Sampler\n",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
 			}
@@ -128,7 +188,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 825.0, 614.956055, 256.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 732.257568, 342.25, 256.0, 64.0 ],
+					"presentation_rect" : [ 807.257568, 342.25, 256.0, 64.0 ],
 					"style" : ""
 				}
 
@@ -169,7 +229,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 747.0, 267.956055, 150.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 732.257568, 432.25, 150.0, 22.0 ],
+					"presentation_rect" : [ 807.257568, 432.25, 150.0, 22.0 ],
 					"style" : "",
 					"varname" : "umenu[1]"
 				}
@@ -186,7 +246,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 541.0, 258.956055, 150.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 732.257568, 408.25, 150.0, 22.0 ],
+					"presentation_rect" : [ 807.257568, 408.25, 150.0, 22.0 ],
 					"style" : "",
 					"varname" : "umenu"
 				}
@@ -200,9 +260,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 738.0, 96.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 800.818176, 105.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 875.818176, 105.0, 150.0, 20.0 ],
 					"style" : "",
-					"text" : "Controller Mapping"
+					"text" : "Controller Mapping",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
 			}
@@ -245,7 +306,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 399.5, 149.5, 130.0, 66.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 717.257568, 127.0, 317.121216, 161.0 ],
+					"presentation_rect" : [ 792.257568, 127.0, 317.121216, 161.0 ],
 					"rows" : 16,
 					"style" : ""
 				}
@@ -291,11 +352,11 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 140.0, 149.5, 218.0, 132.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 3.0, 712.257568, 520.0 ],
-					"setminmax" : [ 0.0, 32.0 ],
+					"presentation_rect" : [ 78.0, 3.0, 712.257568, 514.0 ],
+					"setminmax" : [ 0.0, 33.0 ],
 					"settype" : 0,
 					"size" : 32,
-					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"slidercolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"style" : "",
 					"thickness" : 17,
 					"varname" : "multislider"
@@ -314,7 +375,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 140.0, 149.5, 218.0, 132.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, -0.5, 712.257568, 527.0 ],
+					"presentation_rect" : [ 78.0, -0.5, 712.257568, 517.5 ],
 					"style" : "",
 					"waveformcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
 				}
@@ -1293,6 +1354,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 1 ],
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
