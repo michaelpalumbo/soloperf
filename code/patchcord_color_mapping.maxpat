@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 837.0, 85.0, 831.0, 718.0 ],
+		"rect" : [ 862.0, 79.0, 831.0, 718.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,15 +38,141 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-28",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 84.0, 1161.0, 662.0, 35.0 ],
+					"style" : "",
+					"text" : "set router_12 c-korg_route 12 c-bitcrusher_scale_1 0 c-bitcrusher_scale_1 0 number[11] 0 number[11] 0 c-gigaverb_gen 1 c-gigaverb_gen 0 c-gigaverb_omxcomp 0 c-gigaverb_omccomp 0 c-downsamp_L 0 c-downsamp_L 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 84.0, 1124.0, 662.0, 35.0 ],
+					"style" : "",
+					"text" : "set router_11 c-korg_route 11 c-bitcrusher_scale_0 0 c-bitcrusher_scale_0 0 number[10] 0 number[10] 0 c-gigaverb_gen 1 c-gigaverb_gen 0 c-gigaverb_omxcomp 0 c-gigaverb_omccomp 0 c-downsamp_L 0 c-downsamp_L 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 84.0, 1087.0, 704.0, 35.0 ],
+					"style" : "",
+					"text" : "set router_10 c-korg_route 10 gigaverb_params 8 gigaverb_params 0 c-gigaverb_gen 0 c-gigaverb_gen 0 c-gigaverb_omxcomp 0 c-gigaverb_omccomp 0 c-downsamp_L 0 c-downsamp_L 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 84.0, 1050.0, 691.0, 35.0 ],
+					"style" : "",
+					"text" : "set router_9 c-korg_route 9 gigaverb_params 7 gigaverb_params 0 c-gigaverb_gen 0 c-gigaverb_gen 0 c-gigaverb_omxcomp 0 c-gigaverb_omccomp 0 c-downsamp_L 0 c-downsamp_L 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 84.0, 1013.0, 691.0, 35.0 ],
+					"style" : "",
+					"text" : "set router_8 c-korg_route 8 gigaverb_params 6 gigaverb_params 0 c-gigaverb_gen 0 c-gigaverb_gen 0 c-gigaverb_omxcomp 0 c-gigaverb_omccomp 0 c-downsamp_L 0 c-downsamp_L 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 84.0, 976.0, 691.0, 35.0 ],
+					"style" : "",
+					"text" : "set router_7 c-korg_route 7 gigaverb_params 5 gigaverb_params 0 c-gigaverb_gen 0 c-gigaverb_gen 0 c-gigaverb_omxcomp 0 c-gigaverb_omccomp 0 c-downsamp_L 0 c-downsamp_L 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 84.0, 939.0, 691.0, 35.0 ],
+					"style" : "",
+					"text" : "set router_6 c-korg_route 6 gigaverb_params 4 gigaverb_params 0 c-gigaverb_gen 0 c-gigaverb_gen 0 c-gigaverb_omxcomp 0 c-gigaverb_omccomp 0 c-downsamp_L 0 c-downsamp_L 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 84.0, 902.0, 691.0, 35.0 ],
+					"style" : "",
+					"text" : "set router_5 c-korg_route 5 gigaverb_params 3 gigaverb_params 0 c-gigaverb_gen 0 c-gigaverb_gen 0 c-gigaverb_omxcomp 0 c-gigaverb_omccomp 0 c-downsamp_L 0 c-downsamp_L 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 84.0, 865.0, 691.0, 35.0 ],
+					"style" : "",
+					"text" : "set router_4 c-korg_route 4 gigaverb_params 2 gigaverb_params 0 c-gigaverb_gen 0 c-gigaverb_gen 0 c-gigaverb_omxcomp 0 c-gigaverb_omccomp 0 c-downsamp_L 0 c-downsamp_L 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 69.0, 876.0, 206.0, 36.0 ],
+					"patching_rect" : [ 84.0, 828.0, 691.0, 35.0 ],
 					"style" : "",
-					"text" : "set router_3 c-korg_route 3 gigaverb_params 1"
+					"text" : "set router_3 c-korg_route 3 gigaverb_params 1 gigaverb_params 0 c-gigaverb_gen 0 c-gigaverb_gen 0 c-gigaverb_omxcomp 0 c-gigaverb_omccomp 0 c-downsamp_L 0 c-downsamp_L 0"
 				}
 
 			}
@@ -57,7 +183,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -105.0, 326.0, 150.0, 103.0 ],
+					"patching_rect" : [ -105.0, 326.0, 150.0, 100.0 ],
 					"style" : "",
 					"text" : "if possible, need to be able to also make the target patchords and objects brought to front when changing color so they aren't obscured by other cables/objects"
 				}
@@ -66,14 +192,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-68",
-					"linecount" : 7,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 93.0, 716.0, 206.0, 105.0 ],
+					"patching_rect" : [ 93.0, 716.0, 691.0, 35.0 ],
 					"style" : "",
-					"text" : "set router_2 c-korg_route 2 gigaverb_params 0 gigaverb_params 0 c-gigaverb_gen 0 c-gigaverb_gen 0 c-gigaverb_omxcomp 0 c-gigaverb_omccomp 0 c-downsamp_L 0 c-downsamp_L"
+					"text" : "set router_2 c-korg_route 2 gigaverb_params 0 gigaverb_params 0 c-gigaverb_gen 0 c-gigaverb_gen 0 c-gigaverb_omxcomp 0 c-gigaverb_omccomp 0 c-downsamp_L 0 c-downsamp_L 0"
 				}
 
 			}
@@ -85,7 +211,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 304.0, 73.0, 115.0, 36.0 ],
+					"patching_rect" : [ 304.0, 73.0, 115.0, 35.0 ],
 					"style" : "",
 					"text" : "sprintf append \\\"%i\\\" %i"
 				}
@@ -154,7 +280,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 700.0, 485.0, 50.0, 105.0 ],
+					"patching_rect" : [ 700.0, 485.0, 50.0, 102.0 ],
 					"style" : "",
 					"text" : "reset 0.694118 0.694118 0.694118 1."
 				}
@@ -309,7 +435,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 475.0, 114.0, 150.0, 34.0 ],
+					"patching_rect" : [ 475.0, 114.0, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "need to figure out the 'reset circuit'"
 				}
@@ -349,7 +475,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 339.0, 585.0, 100.0, 36.0 ],
+					"patching_rect" : [ 339.0, 585.0, 100.0, 35.0 ],
 					"style" : "",
 					"text" : "route c-korg_route"
 				}
@@ -363,7 +489,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 457.0, 608.0, 106.0, 64.0 ],
+					"patching_rect" : [ 457.0, 608.0, 106.0, 62.0 ],
 					"style" : "",
 					"text" : "sprintf script sendbox %s bgcolor %f %f %f %f"
 				}
@@ -390,7 +516,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 84.0, 625.0, 206.0, 77.0 ],
+					"patching_rect" : [ 84.0, 625.0, 206.0, 76.0 ],
 					"style" : "",
 					"text" : "set router_1 c-korg_route 1 c-drum_scale 0 c-drum_scale 0 c-drum_phasor 0 c-drum_phasor 0 c-drum_gen 0 c-drum_gen 0 c-bit_crush_gen 0"
 				}
@@ -405,7 +531,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 259.0, 138.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "13 15 1"
+					"text" : "0 13 1"
 				}
 
 			}
@@ -495,7 +621,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 69.0, 316.0, 100.0, 36.0 ],
+					"patching_rect" : [ 69.0, 316.0, 100.0, 35.0 ],
 					"style" : "",
 					"text" : "sprintf get router_%i"
 				}
@@ -664,7 +790,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -124.0, 625.0, 206.0, 202.0 ],
+					"patching_rect" : [ -124.0, 625.0, 206.0, 196.0 ],
 					"style" : "",
 					"text" : "set router_0 c-korg_route 0 c-bit_crush 0 c-bit_crush 0 c-bit_crush_gen 0 c-bit_crush_gen 0 c-gigaverb_gen 0 c-bit_crush_gen 1 c-gigaverb_gen 1 c-gigaverb_gen 0 c-gigaverb_omxcomp 0 c-gigaverb_gen 1 c-gigaverb_omxcomp 1 c-gigaverb_omxcomp 0 c-downsamp_L 0 c-gigaverb_omxcomp 1 c-downsamp_R 0 c-downsamp_L 0 c-livegain_1 0 c-downsamp_R 0 c-livegain_1 1"
 				}
@@ -676,7 +802,16 @@
 						"router_0" : [ "c-korg_route", 0, "c-bit_crush", 0, "c-bit_crush", 0, "c-bit_crush_gen", 0, "c-bit_crush_gen", 0, "c-gigaverb_gen", 0, "c-bit_crush_gen", 1, "c-gigaverb_gen", 1, "c-gigaverb_gen", 0, "c-gigaverb_omxcomp", 0, "c-gigaverb_gen", 1, "c-gigaverb_omxcomp", 1, "c-gigaverb_omxcomp", 0, "c-downsamp_L", 0, "c-gigaverb_omxcomp", 1, "c-downsamp_R", 0, "c-downsamp_L", 0, "c-livegain_1", 0, "c-downsamp_R", 0, "c-livegain_1", 1 ],
 						"router_1" : [ "c-korg_route", 1, "c-drum_scale", 0, "c-drum_scale", 0, "c-drum_phasor", 0, "c-drum_phasor", 0, "c-drum_gen", 0, "c-drum_gen", 0, "c-bit_crush_gen", 0 ],
 						"router_2" : [ "c-korg_route", 2, "gigaverb_params", 0, "gigaverb_params", 0, "c-gigaverb_gen", 0 ],
-						"router_3" : [ "c-korg_route", 3, "gigaverb_params", 1 ]
+						"router_3" : [ "c-korg_route", 3, "gigaverb_params", 1, "gigaverb_params", 0, "c-gigaverb_gen", 0, "c-gigaverb_gen", 0, "c-gigaverb_omxcomp", 0, "c-gigaverb_omccomp", 0, "c-downsamp_L", 0, "c-downsamp_L" ],
+						"router_4" : [ "c-korg_route", 4, "gigaverb_params", 2, "gigaverb_params", 0, "c-gigaverb_gen", 0, "c-gigaverb_gen", 0, "c-gigaverb_omxcomp", 0, "c-gigaverb_omccomp", 0, "c-downsamp_L", 0, "c-downsamp_L" ],
+						"router_5" : [ "c-korg_route", 5, "gigaverb_params", 3, "gigaverb_params", 0, "c-gigaverb_gen", 0, "c-gigaverb_gen", 0, "c-gigaverb_omxcomp", 0, "c-gigaverb_omccomp", 0, "c-downsamp_L", 0, "c-downsamp_L" ],
+						"router_6" : [ "c-korg_route", 6, "gigaverb_params", 4, "gigaverb_params", 0, "c-gigaverb_gen", 0, "c-gigaverb_gen", 0, "c-gigaverb_omxcomp", 0, "c-gigaverb_omccomp", 0, "c-downsamp_L", 0, "c-downsamp_L" ],
+						"router_7" : [ "c-korg_route", 7, "gigaverb_params", 5, "gigaverb_params", 0, "c-gigaverb_gen", 0, "c-gigaverb_gen", 0, "c-gigaverb_omxcomp", 0, "c-gigaverb_omccomp", 0, "c-downsamp_L", 0, "c-downsamp_L" ],
+						"router_8" : [ "c-korg_route", 8, "gigaverb_params", 6, "gigaverb_params", 0, "c-gigaverb_gen", 0, "c-gigaverb_gen", 0, "c-gigaverb_omxcomp", 0, "c-gigaverb_omccomp", 0, "c-downsamp_L", 0, "c-downsamp_L" ],
+						"router_9" : [ "c-korg_route", 9, "gigaverb_params", 7, "gigaverb_params", 0, "c-gigaverb_gen", 0, "c-gigaverb_gen", 0, "c-gigaverb_omxcomp", 0, "c-gigaverb_omccomp", 0, "c-downsamp_L", 0, "c-downsamp_L" ],
+						"router_10" : [ "c-korg_route", 10, "gigaverb_params", 8, "gigaverb_params", 0, "c-gigaverb_gen", 0, "c-gigaverb_gen", 0, "c-gigaverb_omxcomp", 0, "c-gigaverb_omccomp", 0, "c-downsamp_L", 0, "c-downsamp_L" ],
+						"router_12" : [ "c-korg_route", 12, "c-bitcrusher_scale_1", 0, "c-bitcrusher_scale_1", 0, "number[11]", 0, "number[11]", 0, "c-gigaverb_gen", 1, "c-gigaverb_gen", 0, "c-gigaverb_omxcomp", 0, "c-gigaverb_omccomp", 0, "c-downsamp_L", 0, "c-downsamp_L" ],
+						"router_11" : [ "c-korg_route", 11, "c-bitcrusher_scale_0", 0, "c-bitcrusher_scale_0", 0, "number[10]", 0, "number[10]", 0, "c-gigaverb_gen", 1, "c-gigaverb_gen", 0, "c-gigaverb_omxcomp", 0, "c-gigaverb_omccomp", 0, "c-downsamp_L", 0, "c-downsamp_L" ]
 					}
 ,
 					"id" : "obj-1",
@@ -685,7 +820,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 69.0, 354.0, 112.0, 36.0 ],
+					"patching_rect" : [ 69.0, 354.0, 112.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"parameter_enable" : 0
@@ -707,7 +842,35 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -715,6 +878,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}
@@ -729,6 +906,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -1022,6 +1213,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
