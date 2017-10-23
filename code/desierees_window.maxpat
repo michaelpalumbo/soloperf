@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 81.0, 1289.0, 802.0 ],
+		"rect" : [ 34.0, 107.0, 883.0, 776.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"editing_bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 0,
@@ -58,7 +58,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 282.0, 651.0, 50.0, 119.0 ],
+					"patching_rect" : [ 282.0, 651.0, 50.0, 116.0 ],
 					"style" : "",
 					"text" : "1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0"
 				}
@@ -102,7 +102,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 755.0, 30.0, 152.0, 75.0 ],
+					"patching_rect" : [ 755.0, 30.0, 156.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 366.628784, 539.0, 772.0, 20.0 ],
 					"style" : "",
@@ -118,7 +118,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 737.0, 341.0, 100.0, 36.0 ],
+					"patching_rect" : [ 737.0, 341.0, 100.0, 35.0 ],
 					"style" : "",
 					"text" : "send pitched_mode"
 				}
@@ -132,7 +132,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 747.0, 204.0, 100.0, 50.0 ],
+					"patching_rect" : [ 747.0, 204.0, 100.0, 49.0 ],
 					"style" : "",
 					"text" : "receive set_pitched_mode"
 				}
@@ -157,7 +157,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 541.0, 326.0, 100.0, 50.0 ],
+					"patching_rect" : [ 541.0, 326.0, 100.0, 49.0 ],
 					"style" : "",
 					"text" : "send playback_sequence"
 				}
@@ -274,7 +274,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 400.0, 233.0, 100.0, 50.0 ],
+					"patching_rect" : [ 400.0, 233.0, 100.0, 49.0 ],
 					"style" : "",
 					"text" : "send controller_mapping"
 				}
@@ -288,7 +288,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 399.5, 88.0, 100.0, 50.0 ],
+					"patching_rect" : [ 399.5, 88.0, 100.0, 49.0 ],
 					"style" : "",
 					"text" : "receive controller_mapper"
 				}
@@ -307,7 +307,7 @@
 					"patching_rect" : [ 399.5, 149.5, 130.0, 66.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 792.257568, 127.0, 317.121216, 161.0 ],
-					"rows" : 16,
+					"rows" : 21,
 					"style" : ""
 				}
 
@@ -353,7 +353,7 @@
 					"patching_rect" : [ 140.0, 149.5, 218.0, 132.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 78.0, 3.0, 712.257568, 514.0 ],
-					"setminmax" : [ 0.0, 33.0 ],
+					"setminmax" : [ 0.0, 32.0 ],
 					"settype" : 0,
 					"size" : 32,
 					"slidercolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -1025,7 +1025,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 361.5, 59.0, 50.0 ],
+					"patching_rect" : [ 140.0, 361.5, 59.0, 49.0 ],
 					"style" : "",
 					"text" : "send to_main_patcher"
 				}
