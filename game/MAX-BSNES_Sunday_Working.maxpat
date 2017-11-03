@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 435.0, 178.0, 1343.0, 718.0 ],
+		"rect" : [ 303.0, 178.0, 1343.0, 718.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,45 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 460.0, 298.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1117.0, 208.0, 50.0, 35.0 ],
+					"style" : "",
+					"text" : "symbol Start"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 549.0, 282.0, 121.0, 22.0 ],
+					"style" : "",
+					"text" : "metro 500 @active 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "newobj",
@@ -379,7 +418,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1101.0, 154.0, 50.0, 35.0 ],
 					"style" : "",
-					"text" : "symbol B"
+					"text" : "symbol Start"
 				}
 
 			}
@@ -514,7 +553,7 @@
 							}
 , 							{
 								"key" : "Up",
-								"value" : [ "Y-Axis", 127.5 ]
+								"value" : [ "Y-Axis", 127.0 ]
 							}
 , 							{
 								"key" : "Down",
@@ -528,25 +567,25 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 628.0, 636.0, 130.0, 22.0 ],
+					"patching_rect" : [ 628.0, 636.0, 146.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
 ,
 					"style" : "",
-					"text" : "coll arrows @embed 1"
+					"text" : "coll arrows.txt @embed 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-91",
-					"linecount" : 15,
+					"linecount" : 12,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 23.0, 49.0, 82.0, 210.0 ],
+					"patching_rect" : [ 23.0, 49.0, 89.0, 169.0 ],
 					"style" : "",
 					"text" : "Up: Jump Up Left/Right: Flip forward/back Left/Right: Walk forward/back Down: Crouch Y: Hign Punch X: High Kick B: Low Punch A: Low Kick L/R: Block"
 				}
@@ -616,7 +655,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 915.0, 329.0, 50.0, 35.0 ],
 					"style" : "",
-					"text" : "Button-1 0."
+					"text" : "Button-4 0."
 				}
 
 			}
@@ -749,7 +788,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 826.0, 227.0, 50.0, 35.0 ],
 					"style" : "",
-					"text" : "Button-1 127."
+					"text" : "Button-4 127."
 				}
 
 			}
@@ -802,7 +841,7 @@
 							}
 , 							{
 								"key" : "B",
-								"value" : [ "Button-1", 127.0 ]
+								"value" : [ "Button-1", 1.0 ]
 							}
 , 							{
 								"key" : "X",
@@ -910,6 +949,22 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"order" : 1,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"order" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-120", 0 ],
 					"order" : 1,
@@ -1211,6 +1266,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-124", 1 ],
+					"order" : 1,
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
 					"order" : 0,
 					"source" : [ "obj-53", 0 ]
 				}
@@ -1219,7 +1282,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-71", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-53", 0 ]
 				}
 
@@ -1369,13 +1432,6 @@
 				"bootpath" : "~/soloperf/game",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "arrows.html",
-				"bootpath" : "~/dispersion-lab/3rd-party/apps/graphviz-master/doc/info",
-				"patcherrelativepath" : "../../dispersion-lab/3rd-party/apps/graphviz-master/doc/info",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
