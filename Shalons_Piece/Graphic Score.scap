@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="86184D97-B226-4C77-8A59-0CA780A8697C">
+    <Notes>
+        <Note ID="0" FontSize="12.0" Position="1137.473485,196.906064" Width="87.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Narrator/Sister</String>
+        </Note>
+        <Note ID="1" FontSize="12.0" Position="41.00233,14.336349" Width="164.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Notes:
+
+A = Change TV Channels</String>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="1137.912555,234.471491" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.331867 0.609932 0.356197</Border>
+                <Fill>0.790123 0.882328 0.80198</Fill>
+            </Appearance>
+            <String>“I feel sad when I think of my sister.” WAIT: THEN Hat &amp; Sweater comes off. THEN:</String>
+            <ConnectedNoteIDs>6</ConnectedNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="35.646861,107.601974" Width="55.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.747881 0.366532 0.542813</Border>
+                <Fill>0.918452 0.807302 0.863467</Fill>
+            </Appearance>
+            <String>MY CUE</String>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="36.666393,71.504317" Width="141.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.331867 0.609932 0.356197</Border>
+                <Fill>0.790123 0.882328 0.80198</Fill>
+            </Appearance>
+            <String>TEXT MAPPED TO CUE</String>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="1170.023026,314.214844" Width="95.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.747881 0.366532 0.542813</Border>
+                <Fill>0.918452 0.807302 0.863467</Fill>
+            </Appearance>
+            <String>HIT SPACEBAR</String>
+            <ConnectedNoteIDs>3, 8</ConnectedNoteIDs>
+            <PointsToNoteIDs>8</PointsToNoteIDs>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="41.826549,136.609786" Width="42.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.477193 0.557066 0.76433</Border>
+                <Fill>0.840969 0.866828 0.925903</Fill>
+            </Appearance>
+            <String>Action</String>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="1299.607228,303.321181" Width="102.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.747881 0.366532 0.542813</Border>
+                <Fill>0.918452 0.807302 0.863467</Fill>
+            </Appearance>
+            <String>Immediately after Bring “BEATLES” knob to ~30%</String>
+            <ConnectedNoteIDs>6, 30</ConnectedNoteIDs>
+            <PointsToNoteIDs>30</PointsToNoteIDs>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="223.769531,216.484375" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.331867 0.609932 0.356197</Border>
+                <Fill>0.790123 0.882328 0.80198</Fill>
+            </Appearance>
+            <String>“… her name in the lights” (narrator takes of layer of clothes)</String>
+            <ConnectedNoteIDs>12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="273.488281,371.535156" Width="175.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.477193 0.557066 0.76433</Border>
+                <Fill>0.840969 0.866828 0.925903</Fill>
+            </Appearance>
+            <String>once clothes are off, THEN cue</String>
+            <ConnectedNoteIDs>12, 22-23</ConnectedNoteIDs>
+        </Note>
+        <Note ID="12" FontSize="12.0" Position="263.523438,297.0" Width="195.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.747881 0.366532 0.542813</Border>
+                <Fill>0.918452 0.807302 0.863467</Fill>
+            </Appearance>
+            <String>Hit spacebar to go to “Track_Cue2”</String>
+            <ConnectedNoteIDs>10-11</ConnectedNoteIDs>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="191.019531,167.804688" Width="87.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Narrator/Sister</String>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="43.506031,285.457922" Width="62.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Beginning</String>
+            <ConnectedNoteIDs>16</ConnectedNoteIDs>
+            <PointsToNoteIDs>16</PointsToNoteIDs>
+        </Note>
+        <Note ID="16" FontSize="12.0" Position="188.660156,285.320312" Width="20.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>.</String>
+            <ConnectedNoteIDs>15</ConnectedNoteIDs>
+        </Note>
+        <Note ID="22" FontSize="12.0" Position="542.294956,255.22437" Width="128.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.477193 0.557066 0.76433</Border>
+                <Fill>0.840969 0.866828 0.925903</Fill>
+            </Appearance>
+            <String>IF clothes are back on BEFORE end of song</String>
+            <ConnectedNoteIDs>11, 24</ConnectedNoteIDs>
+            <PointsToNoteIDs>24</PointsToNoteIDs>
+        </Note>
+        <Note ID="23" FontSize="12.0" Position="541.314487,319.650151" Width="121.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.477193 0.557066 0.76433</Border>
+                <Fill>0.840969 0.866828 0.925903</Fill>
+            </Appearance>
+            <String>IF clothes are not on, let song run to end. </String>
+            <ConnectedNoteIDs>11, 24</ConnectedNoteIDs>
+            <PointsToNoteIDs>24</PointsToNoteIDs>
+        </Note>
+        <Note ID="24" FontSize="12.0" Position="728.135965,297.972999" Width="95.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.747881 0.366532 0.542813</Border>
+                <Fill>0.918452 0.807302 0.863467</Fill>
+            </Appearance>
+            <String>HIT SPACEBAR</String>
+            <ConnectedNoteIDs>22-23, 25</ConnectedNoteIDs>
+            <PointsToNoteIDs>25</PointsToNoteIDs>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="1133.459978,308.598136" Width="20.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>.</String>
+            <ConnectedNoteIDs>24</ConnectedNoteIDs>
+        </Note>
+        <Note ID="27" FontSize="12.0" Position="883.255482,270.581003" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.477193 0.557066 0.76433</Border>
+                <Fill>0.840969 0.866828 0.925903</Fill>
+            </Appearance>
+            <String>URGENT
+Between CUES: Check that MIDI controller is connected properly by watching the “Monitor” (Shift+Command+N)</String>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="1500.519052,258.308388" Width="165.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.331867 0.609932 0.356197</Border>
+                <Fill>0.790123 0.882328 0.80198</Fill>
+            </Appearance>
+            <String>“You got a problem with me?”</String>
+            <ConnectedNoteIDs>30</ConnectedNoteIDs>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="1523.686815,304.409539" Width="96.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.747881 0.366532 0.542813</Border>
+                <Fill>0.918452 0.807302 0.863467</Fill>
+            </Appearance>
+            <String>DRUMS Volume</String>
+            <ConnectedNoteIDs>8, 29, 31, 36</ConnectedNoteIDs>
+            <PointsToNoteIDs>36</PointsToNoteIDs>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="1533.060718,346.593339" Width="67.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.747881 0.366532 0.542813</Border>
+                <Fill>0.918452 0.807302 0.863467</Fill>
+            </Appearance>
+            <String>TV Volume</String>
+            <ConnectedNoteIDs>30, 36</ConnectedNoteIDs>
+            <PointsToNoteIDs>36</PointsToNoteIDs>
+        </Note>
+        <Note ID="33" FontSize="12.0" Position="1470.686815,199.409539" Width="35.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Man:</String>
+        </Note>
+        <Note ID="35" FontSize="12.0" Position="2065.454359,212.667626" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.331867 0.609932 0.356197</Border>
+                <Fill>0.790123 0.882328 0.80198</Fill>
+            </Appearance>
+            <String>Shalon is Fully Standing, wait a beat, then:</String>
+            <ConnectedNoteIDs>36</ConnectedNoteIDs>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="2113.200795,300.158717" Width="95.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.747881 0.366532 0.542813</Border>
+                <Fill>0.918452 0.807302 0.863467</Fill>
+            </Appearance>
+            <String>HIT SPACEBAR</String>
+            <ConnectedNoteIDs>30-31, 35, 48</ConnectedNoteIDs>
+        </Note>
+        <Note ID="40" FontSize="12.0" Position="2045.527823,185.677906" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Little Girl:</String>
+        </Note>
+        <Note ID="41" FontSize="12.0" Position="1810.712993,393.0" Width="170.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.477193 0.557066 0.76433</Border>
+                <Fill>0.840969 0.866828 0.925903</Fill>
+            </Appearance>
+            <String>NOTE: Towards ending there was an effective technique of rapidly pressing a to create a DJ sample effect</String>
+            <ConnectedNoteIDs>42</ConnectedNoteIDs>
+        </Note>
+        <Note ID="42" FontSize="12.0" Position="1882.100603,321.25466" Width="20.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.747881 0.366532 0.542813</Border>
+                <Fill>0.918452 0.807302 0.863467</Fill>
+            </Appearance>
+            <String>.</String>
+            <ConnectedNoteIDs>41</ConnectedNoteIDs>
+        </Note>
+        <Note ID="43" FontSize="12.0" Position="2299.0,219.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.331867 0.609932 0.356197</Border>
+                <Fill>0.790123 0.882328 0.80198</Fill>
+            </Appearance>
+            <String>Shalon pauses on an arms out stretched pose </String>
+            <ConnectedNoteIDs>48</ConnectedNoteIDs>
+        </Note>
+        <Note ID="44" FontSize="12.0" Position="1732.360883,278.591146" Width="73.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.747881 0.366532 0.542813</Border>
+                <Fill>0.918452 0.807302 0.863467</Fill>
+            </Appearance>
+            <String>DRUM SPEED INCREASE</String>
+            <ConnectedNoteIDs>46</ConnectedNoteIDs>
+        </Note>
+        <Note ID="46" FontSize="12.0" Position="1710.443805,238.259731" Width="129.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.331867 0.609932 0.356197</Border>
+                <Fill>0.790123 0.882328 0.80198</Fill>
+            </Appearance>
+            <String>Shalon stops speaking</String>
+            <ConnectedNoteIDs>44</ConnectedNoteIDs>
+        </Note>
+        <Note ID="47" FontSize="12.0" Position="1781.458882,196.02659" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>NOTE: Drum speed also mapped to Beatles’ Delay time.</String>
+        </Note>
+        <Note ID="48" FontSize="12.0" Position="2347.039337,297.461897" Width="95.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.747881 0.366532 0.542813</Border>
+                <Fill>0.918452 0.807302 0.863467</Fill>
+            </Appearance>
+            <String>HIT SPACEBAR</String>
+            <ConnectedNoteIDs>36, 43</ConnectedNoteIDs>
+        </Note>
+    </Notes>
+    <BackgroundShapes>
+        <Shape ID="9" Sticky="No" Position="1128.965673,184.550595" Width="279.0" Height="191.421875">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="13" Sticky="No" Position="178.070312,157.859375" Width="324.675781" Height="284.140625">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="34" Sticky="No" Position="1447.182566,186.651179" Width="580.0" Height="308.348821">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="39" Sticky="No" Position="2039.629249,184.127467" Width="505.0" Height="191.421875">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+    </BackgroundShapes>
+    <AutoFit>0, 4-7, 11-12, 14-16, 24-25, 29-31, 33, 36, 40, 42, 46, 48</AutoFit>
+    <NoteStyles>
+        <Style Name="Title Text" ID="5926B6B3-A52E-4417-A15E-5AAE25E03DDB" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+        <Style Name="Red Text" ID="7B3CB403-4B3B-4F1A-A2EB-068A30F23E97" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>1.0 0.0 0.0</TextColor>
+        </Style>
+        <Style Name="Brown Bubble" ID="888DD627-C38A-431E-B86D-BFDAA66162AD" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.290055 0.1523 0.182215</BorderColor>
+            <FillColor>0.940019 0.892907 0.779716</FillColor>
+        </Style>
+        <Style Name="Yellow Bubble" ID="84F4C1C0-2FE5-4D24-B44A-287A9FCD2DF8" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.756763 0.785592 0.373258</BorderColor>
+            <FillColor>0.906773 0.910625 0.634363</FillColor>
+        </Style>
+        <Style Name="Green Bubble" ID="FA0F8E2F-CD7B-4BBE-A2FE-0F60DF261909" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.331867 0.609932 0.356197</BorderColor>
+            <FillColor>0.790123 0.882328 0.80198</FillColor>
+        </Style>
+        <Style Name="Blue Bubble" ID="67B805AB-544A-4DB8-AB71-C2E34F48AC6F" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.477193 0.557066 0.76433</BorderColor>
+            <FillColor>0.840969 0.866828 0.925903</FillColor>
+        </Style>
+        <Style Name="Pink Bubble" ID="74B1FB6C-538E-42D3-8B70-E1FE9B2D66BC" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.747881 0.366532 0.542813</BorderColor>
+            <FillColor>0.918452 0.807302 0.863467</FillColor>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999737 0.986332 0.931298</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
