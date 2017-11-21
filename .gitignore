@@ -1,0 +1,4 @@
+#ignore the giant amadeus file size
+*.amad
+*/*.amad
+*.mp4 
